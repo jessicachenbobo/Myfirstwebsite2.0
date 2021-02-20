@@ -1,0 +1,12 @@
+body{
+  background-color: #c6ebc9;
+}
+div{
+  background-color: #e8ffff;
+}
+hr{
+  border: none;
+  border-top:7px dotted purple;
+  color:#aee1e1;
+  width:70%
+}

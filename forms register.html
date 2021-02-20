@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Forms</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <br>
+  <h1><span>REGISTER</span></h1>
+  <div class="div1">
+    <div class="div2">
+      <form action="mailto:jesschenbobo@gmail.com" method="post" enctype="text/plain">
+        First Name: <input type="text" name="Firstname" value="" required autocomplete="on">
+        <!-- required & autocomplete attribute -->
+        <br><br>
+        Last Name: <input type="text" name="Lastname" value="" required>
+        <br><br>
+        Mobile Phone: <input type="tel" name="Mobilephone" value="" placeholder="0800-000-123" required>
+        <!-- placeholder attribute shows how you should type in the input box -->
+        <br><br>
+        Gender:
+        <br>
+        <input type="radio" name="Gender" value="Male"> Male
+        <input type="radio" name="Gender" value="Female"> Female
+        <input type="radio" name="Gender" value="Other"> Other
+        <br><br>
+        Email: <input type="email" name="Email" value="" autocomplete="off">
+        <br><br>
+        Password: <input type="password" name="Password" value="" minlength="4" required>
+        <!-- minlength attribute sets a required minimun length  -->
+        <br><br>
+        Your Message:
+        <!-- <textarea> leaves a coloum on the webpage</textarea> -->
+        <br>
+        <textarea name="Yourmessage" rows="10" cols="30"></textarea>
+        <br><br>
+        Birthday: <input type="date" name="Birthday" value="">
+        <br><br>
+        Pets: <input type="checkbox" name="Pets" value="Yes"> Yes
+        <input type="checkbox" name="Pets" value="No"> No
+        <br><br>
+        <!-- <select name="">
+            <option value="">
+            </option>
+         </select> -->
+        Automobile: <select name="automobile">
+          <option value="BMW"> BMW </option>
+          <option value="BENZ"> BENZ </option>
+          <option value="PORSCHE"> PORSCHE </option>
+          <option value="INFINITI"> INFINITI</option>
+        </select>
+        <br><br>
+        Favorite Color: <input type="color" name="Favoritecolor" value="">
+        <br><br>
+        Upload file:
+        <br>
+        <input type="file" name="File" value="">
+        <br><br>
+        <input type="submit" value="Register">
+        <input type="reset">
+        <br>
+        <br>
+        <br>
+      </form>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
